@@ -1,0 +1,591 @@
+body{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.kreis-bild{
+    width: 80%;
+    border-radius: 10000px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+/* Header - index.html*/
+
+.header{
+    padding-bottom: 10px;
+    background-image: url("../img/background_header.jpg");
+    background-size: cover;
+    background-position: 40% 20%;
+    height: 800px;
+}
+
+.header-logo-wrapper{
+    margin-top: 50px;
+    float: left;
+    font-size: 20px;
+}
+
+.header-logo{
+    color: white;
+    font-size: 120%;
+    display: block;
+    margin-top: -3%;
+    text-decoration: none;
+    text-shadow: 0px 0px 3px black;
+}
+
+.slogan{
+    display: block;
+    margin-top: 10%;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 3px black;
+    font-size: 225%;
+    font-weight: bold;
+}
+
+/* Service - index.html */
+
+.skills{
+    padding-top: 90px;
+    padding-bottom: 75px;
+}
+
+.java-skills{
+    background-color: #ec2025;
+}
+
+.python-skills{
+    background-color:#376f9e;
+}
+
+.databases-skills{
+    background-color: #f29111;
+}
+
+.skills h1, p{
+    font-weight: lighter;
+    
+}
+
+.skills-icon{
+    color: rgb(255, 213, 213);
+    font-size: 1300%;
+    text-align: center;
+    margin-top: -10%;
+    margin-bottom: -5%;
+    transition: all 1s;
+}
+
+.skills-text{
+    color: rgb(255, 213, 213);
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  
+    40% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+  
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  }
+
+.skills-icon:hover{
+    animation: bounce 1s;
+    /* transform: rotate(360deg);
+    /* -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3); */
+}
+
+
+/* Produkte - index.html*/
+
+.more-skills{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    background-color: rgb(221, 157, 157);
+}
+
+.more-skills-icon{
+    width: 70px;
+    height: 60px;
+    padding-top: 12px;
+    background-color: rgb(37, 36, 36);
+    border-radius: 35px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    float: left;
+    transition: all 1s;
+}
+
+.more-skills-icon:hover{
+    transform: rotate(360deg);
+}
+
+.more-skills-text{
+    margin-left: 90px;
+}
+
+.more-skills-text h5{
+    font-size: 120%;
+    margin-bottom: 5px;
+}
+
+.more-skills-text p{
+    font-weight: lighter;
+}
+
+.more-skills-sprung-button{
+    padding-top: 40px;
+}
+
+.more-skills-button{
+    color: rgb(0, 0, 0);
+}
+
+.more-skills-button:hover{
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
+
+
+/* Team - index.html */
+
+.social-media{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.social-media-heading{
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.social-media-subheading{
+    font-weight: lighter;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+.social-media-bild{
+    max-width: 40%;
+}
+
+.social-media-bild-container{
+    text-align: center;
+}
+
+.social-media-name{
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.social-media-name-bio{
+    font-weight: lighter;
+    font-size: 85%;
+    color: rgb(200, 200, 200);
+    margin-bottom: 10px;
+}
+
+.social-media-icon{
+    color: white;
+    border: 3px solid rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+    border-radius: 100000px;
+    display: inline-block;
+    text-align: center;
+}
+
+.social-media-icon .fab{
+    margin-top: 7px;
+}
+
+
+/* Kontakt  - index.html*/
+
+.kontakt{
+    background-color: rgb(165, 165, 202);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.kontakt-heading{
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+.kontakt-aufnahme{
+    color: white;
+    list-style-type: none;
+}
+
+.kontakt-aufnahme li{
+    width: 50%;
+    float: left;
+    font-weight: lighter;
+    height: 3em;
+}
+
+.kontakt-aufnahme .fas{
+    font-size: 130%;
+}
+
+.kontakt-aufnahme .fab{
+    font-size: 130%;
+}
+
+.kontakt-icon{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+
+.kontakt-form{
+    margin-bottom: 0px;
+}
+
+.kontakt-input{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* Schwarzer Rahmen beim "input" und "textarea" */
+.kontakt-input:focus,
+input.kontakt-input:focus{
+    border: 1px solid black;
+}
+
+.kontakt-nachricht{
+    height: 180px;
+}
+
+input.kontakt-button[type="submit"]{
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+
+/* Fusszeile - jedes .html*/
+
+.fusszeile{
+    background-color: rgb(165, 165, 202);
+    color: white;
+    text-align: center;
+}
+
+.fusszeile-hr{
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+/* Header - service .html */
+#fusszeile-spende{
+    background-color: white;
+
+}
+
+/* --------------------------------
+        Andere .html-File
+-------------------------------- */
+
+
+
+
+/* Produktenliste - produkte.html */
+
+.produkte-liste{
+    background-color: rgb(220, 255, 235);
+    padding-top: 100px;
+    margin-left: 0px;
+    padding-bottom: 100px
+}
+
+.bild-hover{
+    text-align: center;
+    padding-top: 50px;
+}
+.bild-hover img {
+    width: 60%;
+	transform: scale(1.5);
+    transition: .3s ease-in-out;
+}
+.bild-hover:hover img {
+	transform: scale(1);
+}
+
+.bild-hover img {
+	transform: scale(1);
+    transition: .3s ease-in-out;
+}
+.bild-hover:hover img {
+	transform: scale(1.3);
+}
+
+.bild-hover p{
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bild-hover a{
+    text-decoration: none;
+    color: black;
+}
+
+/* --------------------------------
+        Andere .html-File
+-------------------------------- */
+
+
+
+/* Sortiment PLüschtiere - Alle .html bei den Produkten */
+
+.sortiment{
+    padding-top: 100px;
+    margin-left: 0px;
+    padding-bottom: 100px;
+    background-color: rgb(220, 255, 235);
+}
+
+.sortiment h1{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.sortiment-bild{
+    text-align: center;
+    padding-top: 50px;
+}
+.sortiment-bild img {
+    width: 90%;
+}
+
+.sortiment-bild h5{
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.sortiment-bild button {
+    border: none;
+    outline: 0;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 30%;
+    font-size: 12px;
+}
+  
+.sortiment-bild button:hover {
+    opacity: 0.7;
+}
+
+/* Footer - verschiedene .html */
+#fusszeile-produkte{
+    background-color: rgb(220, 255, 235);
+    color: black;
+}
+
+/* --------------------------------
+        Andere .html-File
+-------------------------------- */
+
+
+/* Lernvideo schauen - lernvide.html */
+
+/* Header - lernvideo.html */
+#header-lernvideos{
+    padding-bottom: 10px;
+    background-image: url("../img/lernvideo3.jpg");
+    background-size: cover;
+    background-position: 40% 0%;
+    height: 800px;
+}
+
+.lernvideo-collection{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: left;
+}
+
+.lernvideo-collection-prolog{
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+.lernvideo{
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+
+.video-edit img{
+    width: 100%;
+}
+
+.youtube-spring-button{
+    padding-top: 20px;
+    text-align: left;
+}
+
+.youtube-button{
+    color: rgb(0, 0, 0);
+    border-color: black;
+}
+
+.youtube-button:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 3px black;
+}
+
+/* Footer - service .html */
+#fusszeile-lernvideos{
+    background-color: rgb(255, 255, 255);
+    color: gray;
+}
+
+/* --------------------------------
+        Andere .html-File
+-------------------------------- */
+
+
+
+/* Unser Service - service.html */
+
+.service-liste{
+    padding-top: 100px;
+    margin-left: 0px;
+    padding-bottom: 100px
+}
+
+/* --------------------------------
+        Andere .html-File
+-------------------------------- */
+
+
+
+/* Spendenmöglichkeiten - spende.html*/
+
+.spende{
+    padding-top: 90px;
+    padding-bottom: 75px;
+}
+
+.spende-wwf{
+    background-color: rgb(187, 187, 187);
+}
+
+.spende-proJuve{
+    background-color: rgb(248, 238, 226);
+}
+
+.spende-unicef{
+    background-color: rgb(153, 153, 153);
+}
+
+.spende h1, p{
+    font-weight: lighter;
+}
+
+.spende-icon{
+    color: rgb(255, 0, 0);
+    font-size: 1300%;
+    text-align: center;
+    margin-top: -10%;
+    margin-bottom: -20%;
+}
+
+.spende-bild img{
+    width: 60%;
+    padding-left: 20%;
+}
+
+.spende-site-button{
+    padding-top: 30px;
+    text-align: left;
+}
+
+.spende-button{
+    color: rgb(0, 0, 0);
+    border-color: black;
+}
+
+.spende-button:hover{
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
+
+/* Footer - service .html */
+#fusszeile-spende{
+    background-color: rgb(153, 153, 153);
+}
+
+/* --------------------------------
+        Andere .html-File
+-------------------------------- */
+
+
+
+/* Ueber uns - ueberUns.html */
+
+/* Header - ueberUns.html */
+#header-ueberUns{
+    padding-bottom: 10px;
+    background-image: url("../img/team_header.jpg");
+    background-size: cover;
+    background-position: 40% 0%;
+    height: 800px;
+}
+
+.geschichte{
+    padding-top: 50px;
+}
+
+.ueberuns-prolog{
+    padding-top: 50px;
+}
+
+.teammate{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.teammate img{
+    text-align: center;
+    width: 70%;
+    padding-bottom: 10px;
+}
+
+.teammate p{
+    font-weight: 500;
+}
+
+.teammate i{
+    font-weight: lighter;
+}
+
+/* Footer - ueberUns .html */
+#fusszeile-ueberuns{
+    padding-top: 100px;
+    background-color: rgb(255, 255, 255);
+    color: gray;
+}
